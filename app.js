@@ -41,7 +41,7 @@ const createCardProduct = (product) => {
 };
 const getReqAllProducts = async (url, reqType) => {
   try {
-    const response = await fetch("http://localhost:8080/api/products" + url, {
+    const response = await fetch("https://meirprojecg.onrender.com/api/products" + url, {
       method: reqType,
     });
     if (!response.ok) throw new Error("Error: data not loud");
