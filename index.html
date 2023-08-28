@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales website project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <span id="store-name">My Store</span>
+      <div id="header-icons">
+        <i
+          class="material-icons buttom-icon"
+          id="add-icon"
+          onclick="addProduct()"
+          >add_circle_outline</i
+        >
+        <i
+          class="material-icons buttom-icon"
+          id="home-icon"
+          onclick="Router('HOME')"
+          >home</i
+        >
+      </div>
+    </div>
+    <div id="main">
+      <div id="nav-categories"></div>
+      <div id="products"></div>
+    </div>
+    <div id="edit-page"></div>
+    <div id="add-page" class="add"></div>
+    <div id="product-page"></div>
+
+    <div id="fother"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
